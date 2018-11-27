@@ -44,10 +44,10 @@ app.get('/coleccion/:tabla/:busqueda', (req, res) => {
         res.status(200).json({
             ok: true,
             [tabla]: data
-        })
-    })
+        });
+    });
 
-})
+});
 
 //=============================================
 //Busqueda General
